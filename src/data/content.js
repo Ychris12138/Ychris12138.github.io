@@ -44,7 +44,7 @@ export const content = {
       stats: [
         { value: "4", label: "Public repositories" },
         { value: "1", label: "Published paper" },
-        { value: "4", label: "Research projects" },
+        { value: "3", label: "Open-source projects" },
       ],
     },
     about: {
@@ -123,7 +123,7 @@ export const content = {
     ],
     research: {
       tag: "Research",
-      title: "Publications & current work",
+      title: "Publications",
       interestsLabel: "Research interests",
       interests: [
         "Supercooled Water",
@@ -146,35 +146,6 @@ export const content = {
               url: "https://doi.org/10.1021/acs.jpclett.6c00789",
             },
           ],
-        },
-        {
-          year: "Current",
-          kind: "Co-first-author manuscript",
-          title:
-            "Crystallization mechanisms of supercooled water from a modified two-state model",
-          authors: "R. Yang et al.",
-          venue:
-            "Model development, parameter fitting, crystallization analysis, and energetic interpretation; manuscript in preparation.",
-          links: [],
-        },
-        {
-          year: "Current",
-          kind: "PhD research",
-          title: "Free-surface effects on ice nucleation in supercooled water",
-          authors: "Independent OpenMM simulation and analysis workflow",
-          venue:
-            "Microsecond-scale simulations, dynamic nucleus tracking, instantaneous interface detection, and free-energy reconstruction.",
-          links: [],
-        },
-        {
-          year: "Current",
-          kind: "PhD research",
-          title:
-            "Competition between liquid-liquid transitions and crystallization",
-          authors: "Long-timescale molecular dynamics and statistical modeling",
-          venue:
-            "Two-state fits, critical scaling, free-energy surfaces, and time-correlation analysis in the HDL-LDL-crystal pathway.",
-          links: [],
         },
       ],
     },
@@ -228,7 +199,7 @@ export const content = {
       stats: [
         { value: "4", label: "公开仓库" },
         { value: "1", label: "已发表论文" },
-        { value: "4", label: "科研项目" },
+        { value: "3", label: "开源项目" },
       ],
     },
     about: {
@@ -305,7 +276,7 @@ export const content = {
     ],
     research: {
       tag: "科研",
-      title: "论文与当前工作",
+      title: "已发表论文",
       interestsLabel: "研究兴趣",
       interests: ["过冷水", "冰成核", "液-液转变", "统计建模", "AI for Science"],
       items: [
@@ -321,30 +292,6 @@ export const content = {
               url: "https://doi.org/10.1021/acs.jpclett.6c00789",
             },
           ],
-        },
-        {
-          year: "进行中",
-          kind: "共同第一作者论文",
-          title: "基于修正两态模型的过冷水结晶机制研究",
-          authors: "杨锐 等",
-          venue: "负责模型构建、参数拟合、结晶分析与能量解释；论文准备投稿。",
-          links: [],
-        },
-        {
-          year: "进行中",
-          kind: "博士科研项目",
-          title: "自由表面对过冷水冰成核的影响",
-          authors: "独立搭建 OpenMM 模拟与分析流程",
-          venue: "开展微秒级模拟、晶核动态追踪、瞬时界面识别和自由能重构。",
-          links: [],
-        },
-        {
-          year: "进行中",
-          kind: "博士科研项目",
-          title: "过冷水液-液转变与结晶的动力学竞争",
-          authors: "长时间分子动力学与统计物理建模",
-          venue: "通过两态模型、临界标度、自由能曲面及时间关联分析 HDL-LDL-结晶演化路径。",
-          links: [],
         },
       ],
     },
